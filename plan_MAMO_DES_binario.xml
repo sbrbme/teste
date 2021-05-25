@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Metadata>
-  <Group Id="$group:1" Name="CaixaMAMODes - Binario plan" Desc="">
+  <Group Id="$group:1" Name="CaixaMAMODes - Binario plan v2" Desc="">
     <Properties>
       <Property Id="$grpprop:1" Name="AsOfDate" DefaultValue="2021-04-13" />
       <Property Id="$grpprop:2" Name="ConfigDirectory" DefaultValue="Config" />
@@ -9,7 +9,7 @@
       <Property Id="$grpprop:5" Name="TSSiteNumber" DefaultValue="70260982" />
       <Property Id="$grpprop:6" Name="SiteID" DefaultValue="0038284001" />
       <Property Id="$grpprop:7" Name="CreatedBy" DefaultValue="Bruno Menezes" />
-      <Property Id="$grpprop:8" Name="LastModified" DefaultValue="2021-05-14 11:33:11.054" />
+      <Property Id="$grpprop:8" Name="LastModified" DefaultValue="2021-05-25 09:38:07.801" />
       <Property Id="$grpprop:9" Name="IsPlanValid" DefaultValue="true" />
       <Property Id="$grpprop:10" Name="IsSequenceEnsured" DefaultValue="true" />
       <Property Id="$grpprop:11" Name="PowerMode" DefaultValue="false" />
@@ -20,7 +20,7 @@
     </Properties>
     <Notes>
       <TextStore Id="$grpprop:16" Name="PlanDetails" StoredText="" />
-      <TextStore Id="$grpprop:17" Name="BuildDetails" StoredText="MAMBAQNkaWRwbG95MjI2AwEBeB0bjYYDBgMwAzADOQMCYQOSHLCKAzADMAM5AwI5LjQgMjF3MTMgdwMDMAMwAzkDAmMDAQIilksDMAMwAzkDAnADAQFOEp7nAzADMAM5AwJtA9JuHNcDMAMwAzkDAnUDAQFOGMZgAw==" />
+      <TextStore Id="$grpprop:17" Name="BuildDetails" StoredText="MAMBAQNkaWRwbG95MjI2AwEBeB0bjYYDBgMwAzADOQMCYQOSHLCKAzADMAM5AwI5LjQgMjF3MTMgdwMDMAMwAzkDAmMDAQIilksDMAMwAzkDAnADAQGGSrIVAzADMAM5AwJtAwEBY5AUJAMwAzADOQMCdQMBAYZqfx4D" />
     </Notes>
     <Members>
       <SoftwareComponent Id="$PLATFRMSTOFR:1" Name="Platform Suite for SAS" ProductName="Platform Suite for SAS" ProductIdentifier="PLATFRMSTOFR" SoftwareVersion="12.1">
@@ -1005,25 +1005,24 @@
           <Property Id="$machine:2:prop:16" Name="DerivedPurpose" DefaultValue="Metadata Server" />
           <Property Id="$machine:2:prop:17" Name="DerivedPurpose" DefaultValue="Middle Tier" />
           <Property Id="$machine:2:prop:18" Name="DerivedPurpose" DefaultValue="SAS Application Server" />
-          <Property Id="$machine:2:prop:19" Name="DerivedPurpose" DefaultValue="Web Server" />
-          <Property Id="$machine:2:prop:20" Name="Platform" DefaultValue="LAX" />
-          <Property Id="$machine:2:prop:21" Name="PlatformName" DefaultValue="Linux for x64" />
-          <Property Id="$machine:2:prop:22" Name="Full Name" DefaultValue="" />
-          <Property Id="$machine:2:prop:23" Name="Type" DefaultValue="" />
-          <Property Id="$machine:2:prop:24" Name="Model" DefaultValue="" />
-          <Property Id="$machine:2:prop:25" Name="OS Version" DefaultValue="" />
-          <Property Id="$machine:2:prop:26" Name="CPUs" DefaultValue="" />
-          <Property Id="$machine:2:prop:27" Name="RAM" DefaultValue="" />
-          <Property Id="$machine:2:prop:28" Name="Disk" DefaultValue="" />
-          <Property Id="$machine:2:prop:29" Name="Network" DefaultValue="" />
-          <Property Id="$machine:2:prop:30" Name="I/O Paths" DefaultValue="" />
-          <Property Id="$machine:2:prop:31" Name="StepLabel_1" DefaultValue="initial" />
-          <Property Id="$machine:2:prop:32" Name="MachTopoName" DefaultValue="Server and Middle Tier" />
-          <Property Id="$machine:2:prop:33" Name="IsOptAllowed" DefaultValue="true" />
+          <Property Id="$machine:2:prop:19" Name="Platform" DefaultValue="LAX" />
+          <Property Id="$machine:2:prop:20" Name="PlatformName" DefaultValue="Linux for x64" />
+          <Property Id="$machine:2:prop:21" Name="Full Name" DefaultValue="" />
+          <Property Id="$machine:2:prop:22" Name="Type" DefaultValue="" />
+          <Property Id="$machine:2:prop:23" Name="Model" DefaultValue="" />
+          <Property Id="$machine:2:prop:24" Name="OS Version" DefaultValue="" />
+          <Property Id="$machine:2:prop:25" Name="CPUs" DefaultValue="" />
+          <Property Id="$machine:2:prop:26" Name="RAM" DefaultValue="" />
+          <Property Id="$machine:2:prop:27" Name="Disk" DefaultValue="" />
+          <Property Id="$machine:2:prop:28" Name="Network" DefaultValue="" />
+          <Property Id="$machine:2:prop:29" Name="I/O Paths" DefaultValue="" />
+          <Property Id="$machine:2:prop:30" Name="StepLabel_1" DefaultValue="initial" />
+          <Property Id="$machine:2:prop:31" Name="StepLabel_4" DefaultValue="SAS Web Infrastructure Platform 9.4_M7" />
+          <Property Id="$machine:2:prop:32" Name="IsOptAllowed" DefaultValue="true" />
         </Properties>
         <Notes>
-          <TextStore Id="$machine:2:prop:34" Name="MachineDetails" StoredText="" />
-          <TextStore Id="$machine:2:prop:35" Name="Deployment" StoredText="" />
+          <TextStore Id="$machine:2:prop:33" Name="MachineDetails" StoredText="" />
+          <TextStore Id="$machine:2:prop:34" Name="Deployment" StoredText="" />
         </Notes>
         <DeployedComponents>
           <DeployedComponent Id="$JAVARUNTIME:1" Name="Java Platform Standard Edition Runtime Environment" ProductName="Java Platform Standard Edition Runtime Environment" ProductIdentifier="JAVARUNTIME" Platform="LAX" SoftwareVersion="1.8.0_252">
@@ -1090,7 +1089,6 @@
               <ConfiguredComponent ObjRef="$HYPERAGNTC:1" Desc="contains" ChangeState="true" />
               <ConfiguredComponent ObjRef="$LEVCONFIG:1" Desc="contains" ChangeState="true" />
               <ConfiguredComponent ObjRef="$METADATASRV:1" Desc="contains" ChangeState="true" />
-              <ConfiguredComponent ObjRef="$VFABRCERSVRC:1" Desc="contains" ChangeState="true" />
               <ConfiguredComponent ObjRef="$VFABRICTCSVR:1" Desc="contains" ChangeState="true" />
               <DeployedComponent ObjRef="$WEBINFDSVRC:1" Desc="contains" ChangeState="true" />
             </ImplementedObjects>
@@ -1812,7 +1810,6 @@
               <DeployedComponent ObjRef="$RTDMDATA:1" Desc="requires" ChangeState="true" />
               <DeployedComponent ObjRef="$RTDMLOGTYPES:1" Desc="requires" ChangeState="true" />
               <ConfiguredComponent ObjRef="$STORPROCSRV:1" Desc="requires" ChangeState="true" />
-              <ConfiguredComponent ObjRef="$VFABRCERSVRC:1" Desc="requires" ChangeState="true" />
               <ConfiguredComponent ObjRef="$VFABRCHYPERC:1" Desc="requires" ChangeState="true" />
               <ConfiguredComponent ObjRef="$VFABRICTCSVR:1" Desc="requires" ChangeState="true" />
               <ConfiguredComponent ObjRef="$WEBDOCMD:1" Desc="requires" ChangeState="true" />
@@ -2306,18 +2303,6 @@
               <DeployedComponent ObjRef="$EVMKITEVP:1" Desc="requires" ChangeState="true" />
               <ConfiguredComponent ObjRef="$VFABRICTCSVR:1" Desc="requires" ChangeState="true" />
               <DeployedComponent ObjRef="$WEBINFDSVRC:1" Desc="requires" ChangeState="true" />
-            </ImplementedObjects>
-          </DeployedComponent>
-          <DeployedComponent Id="$ERSSVR:1" Name="SAS Web Server" ProductName="SAS Web Server" ProductIdentifier="ERSSVR" Platform="LAX" SoftwareVersion="9.46">
-            <Properties>
-              <Property Id="$ERSSVR:1:prop:1" Name="InternalVersion" DefaultValue="94.170" />
-              <Property Id="$ERSSVR:1:prop:2" Name="ProductionStatus" DefaultValue="PROD" />
-              <Property Id="$ERSSVR:1:prop:3" Name="IsFoundation" DefaultValue="false" />
-              <Property Id="$ERSSVR:1:prop:4" Name="Hide" DefaultValue="false" />
-              <Property Id="$ERSSVR:1:prop:5" Name="Prerequisite" DefaultValue="false" />
-            </Properties>
-            <ImplementedObjects>
-              <ConfiguredComponent ObjRef="$VFABRCERSVRC:1" Desc="is configuration of" ChangeState="true" />
             </ImplementedObjects>
           </DeployedComponent>
           <DeployedComponent Id="$TCSVR:1" Name="SAS Web Application Server" ProductName="SAS Web Application Server" ProductIdentifier="TCSVR" Platform="LAX" SoftwareVersion="9.46">
@@ -3217,7 +3202,9 @@
               <Property Id="$GRSGEDITOR:1:prop:5" Name="Prerequisite" DefaultValue="false" />
             </Properties>
             <ImplementedObjects>
-              <DeployedComponent ObjRef="$BASE:1" Desc="requires" ChangeState="true" />
+              <DeployedComponent ObjRef="$BASE:1" Desc="optionally contains 1 of, requires" ChangeState="true" />
+              <DeployedComponent ObjRef="$BASE:2" Desc="optionally contains 1 of" ChangeState="true" />
+              <DeployedComponent ObjRef="$BASE:3" Desc="optionally contains 1 of" ChangeState="true" />
             </ImplementedObjects>
           </DeployedComponent>
           <DeployedComponent Id="$CERTFRAME:1" Name="SAS Security Certificate Framework" ProductName="SAS Security Certificate Framework" ProductIdentifier="CERTFRAME" Platform="LAX" SoftwareVersion="9.49630">
@@ -3274,7 +3261,6 @@
               <DeployedComponent ObjRef="$POLICYENGINE:1" Desc="requires" ChangeState="true" />
               <DeployedComponent ObjRef="$RTDMLOGTYPES:1" Desc="requires" ChangeState="true" />
               <DeployedComponent ObjRef="$TCSVR:1" Desc="requires" ChangeState="true" />
-              <ConfiguredComponent ObjRef="$VFABRCERSVRC:1" Desc="requires" ChangeState="true" />
             </ImplementedObjects>
           </DeployedComponent>
           <DeployedComponent Id="$SFORCEJAR:1" Name="SAS/ACCESS Interface to Salesforce" ProductName="SAS/ACCESS Interface to Salesforce" ProductIdentifier="SFORCEJAR" Platform="LAX" SoftwareVersion="9.42">
@@ -3321,6 +3307,7 @@
               <Property Id="$LEVCONFIG:1:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$LEVCONFIG:1:prop:5" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$LEVCONFIG:1:prop:6" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$LEVCONFIG:1:prop:7" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <ConfiguredComponent ObjRef="$CONNECTSRV:1" Desc="needs for install" ChangeState="true" />
@@ -3341,6 +3328,7 @@
               <Property Id="$MOLAUNCHER:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$MOLAUNCHER:1:prop:10" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$MOLAUNCHER:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$MOLAUNCHER:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$MKTOPTSAOFR:1" Desc="contains 1 of" ChangeState="true" />
@@ -3354,6 +3342,7 @@
               <Property Id="$METADATASRV:1:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$METADATASRV:1:prop:5" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$METADATASRV:1:prop:6" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$METADATASRV:1:prop:7" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$BASE:1" Desc="optionally contains" ChangeState="true" />
@@ -3407,6 +3396,7 @@
               <Property Id="$DCMCOMDSVRC:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$DCMCOMDSVRC:1:prop:10" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$DCMCOMDSVRC:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$DCMCOMDSVRC:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$BRLSTOFR:1" Desc="contains 1 of" ChangeState="true" />
@@ -3420,6 +3410,7 @@
               <Property Id="$MGMTCONSOLE:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$MGMTCONSOLE:1:prop:10" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$MGMTCONSOLE:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$MGMTCONSOLE:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$BIADMINTIER:1" Desc="contains 1 of" ChangeState="true" />
@@ -3452,6 +3443,7 @@
               <Property Id="$WEBINFDSVRC:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$WEBINFDSVRC:1:prop:10" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$WEBINFDSVRC:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$WEBINFDSVRC:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$BIRPTSVCofr:1" Desc="contains 1 of" ChangeState="true" />
@@ -3470,6 +3462,7 @@
               <Property Id="$EMADATA:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$EMADATA:1:prop:10" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$EMADATA:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$EMADATA:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$EMACORE:1" Desc="contains 1 of" ChangeState="true" />
@@ -3485,6 +3478,7 @@
               <Property Id="$CICDATA:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$CICDATA:1:prop:10" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$CICDATA:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$CICDATA:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$EMADATA:1" Desc="requires" ChangeState="true" />
@@ -3502,6 +3496,7 @@
               <Property Id="$RTDMDATA:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$RTDMDATA:1:prop:10" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$RTDMDATA:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$RTDMDATA:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$DECSRVOFR:1" Desc="contains 1 of" ChangeState="true" />
@@ -3516,6 +3511,7 @@
               <Property Id="$EMALAUNCHER:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$EMALAUNCHER:1:prop:10" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$EMALAUNCHER:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$EMALAUNCHER:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$MKTAUTOOFR:1" Desc="contains 1 of" ChangeState="true" />
@@ -3530,6 +3526,7 @@
               <Property Id="$MKTOPTDATA:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$MKTOPTDATA:1:prop:10" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$MKTOPTDATA:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$MKTOPTDATA:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$MKTOPTSAOFR:1" Desc="contains 1 of" ChangeState="true" />
@@ -3543,6 +3540,7 @@
               <Property Id="$OBJECTSPAWNR:1:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$OBJECTSPAWNR:1:prop:5" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$OBJECTSPAWNR:1:prop:6" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$OBJECTSPAWNR:1:prop:7" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$BISRVTIER:1" Desc="contains" ChangeState="true" />
@@ -3567,6 +3565,7 @@
               <Property Id="$OSSRVSCHED:1:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$OSSRVSCHED:1:prop:5" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$OSSRVSCHED:1:prop:6" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$OSSRVSCHED:1:prop:7" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$BASE:1" Desc="optionally contains" ChangeState="true" />
@@ -3585,6 +3584,7 @@
               <Property Id="$PLATFORMPM:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$PLATFORMPM:1:prop:10" Name="Prerequisite" DefaultValue="true" />
               <Property Id="$PLATFORMPM:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$PLATFORMPM:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$PLATFORMST:1" Desc="contains" ChangeState="true" />
@@ -3598,6 +3598,7 @@
               <Property Id="$DSBATCHSRV:1:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$DSBATCHSRV:1:prop:5" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$DSBATCHSRV:1:prop:6" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$DSBATCHSRV:1:prop:7" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$BASE:1" Desc="optionally contains" ChangeState="true" />
@@ -3613,6 +3614,7 @@
               <Property Id="$OLAPCUBESRV:1:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$OLAPCUBESRV:1:prop:5" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$OLAPCUBESRV:1:prop:6" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$OLAPCUBESRV:1:prop:7" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$EBISRVTIER:1" Desc="contains" ChangeState="true" />
@@ -3626,6 +3628,7 @@
               <Property Id="$WORKSPACPOOL:1:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$WORKSPACPOOL:1:prop:5" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$WORKSPACPOOL:1:prop:6" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$WORKSPACPOOL:1:prop:7" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$BIDASHMID:1" Desc="requires 1 of" ChangeState="true" />
@@ -3646,6 +3649,7 @@
               <Property Id="$STORPROCSRV:1:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$STORPROCSRV:1:prop:5" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$STORPROCSRV:1:prop:6" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$STORPROCSRV:1:prop:7" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$BISRVTIER:1" Desc="contains" ChangeState="true" />
@@ -3663,6 +3667,7 @@
               <Property Id="$WORKSPACESRV:1:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$WORKSPACESRV:1:prop:5" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$WORKSPACESRV:1:prop:6" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$WORKSPACESRV:1:prop:7" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$BISRVTIER:1" Desc="contains" ChangeState="true" />
@@ -3683,6 +3688,7 @@
               <Property Id="$CONNECTSRV:1:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$CONNECTSRV:1:prop:5" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$CONNECTSRV:1:prop:6" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$CONNECTSRV:1:prop:7" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$CONNECT:1" Desc="optionally contains" ChangeState="true" />
@@ -3697,6 +3703,7 @@
               <Property Id="$SHARESRV:1:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$SHARESRV:1:prop:5" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$SHARESRV:1:prop:6" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$SHARESRV:1:prop:7" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$EMA:1" Desc="contains" ChangeState="true" />
@@ -3712,6 +3719,7 @@
               <Property Id="$DMDSVRC:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$DMDSVRC:1:prop:10" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$DMDSVRC:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$DMDSVRC:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$DFFEDSVROFR:1" Desc="contains 1 of" ChangeState="true" />
@@ -3726,6 +3734,7 @@
               <Property Id="$BRLCOGENMVAC:1:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$BRLCOGENMVAC:1:prop:5" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$BRLCOGENMVAC:1:prop:6" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$BRLCOGENMVAC:1:prop:7" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$BRLSTBNDL:1" Desc="contains" ChangeState="true" />
@@ -3739,6 +3748,7 @@
               <Property Id="$MKTOPTCONFIG:1:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$MKTOPTCONFIG:1:prop:5" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$MKTOPTCONFIG:1:prop:6" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$MKTOPTCONFIG:1:prop:7" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$MKTOPTSA:1" Desc="contains" ChangeState="true" />
@@ -3752,6 +3762,7 @@
               <Property Id="$CICSVRCFG:1:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$CICSVRCFG:1:prop:5" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$CICSVRCFG:1:prop:6" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$CICSVRCFG:1:prop:7" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$MKTAUTOOFR:1" Desc="contains 1 of" ChangeState="true" />
@@ -3767,6 +3778,7 @@
               <Property Id="$MSOFFICEDATA:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$MSOFFICEDATA:1:prop:10" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$MSOFFICEDATA:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$MSOFFICEDATA:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$BISRVTIER:1" Desc="contains 1 of" ChangeState="true" />
@@ -3783,6 +3795,7 @@
               <Property Id="$BIREPWS:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$BIREPWS:1:prop:10" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$BIREPWS:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$BIREPWS:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$BIREPSERV:1" Desc="requires 1 of" ChangeState="true" />
@@ -3799,6 +3812,7 @@
               <Property Id="$DATABUILDATA:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$DATABUILDATA:1:prop:10" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$DATABUILDATA:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$DATABUILDATA:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$DATABUILDER:1" Desc="contains 1 of" ChangeState="true" />
@@ -3813,6 +3827,7 @@
               <Property Id="$EGUIDEDATA:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$EGUIDEDATA:1:prop:10" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$EGUIDEDATA:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$EGUIDEDATA:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$EGUIDESRVORD:1" Desc="requires 1 of" ChangeState="true" />
@@ -3826,6 +3841,7 @@
               <Property Id="$MGMTCONDATA:1:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$MGMTCONDATA:1:prop:5" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$MGMTCONDATA:1:prop:6" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$MGMTCONDATA:1:prop:7" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$BISRVTIER:1" Desc="requires 1 of" ChangeState="true" />
@@ -3846,6 +3862,7 @@
               <Property Id="$DFFEDSVRC:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$DFFEDSVRC:1:prop:10" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$DFFEDSVRC:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$DFFEDSVRC:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$DCSVCFEDCFG:1" Desc="requires" ChangeState="true" />
@@ -3861,6 +3878,7 @@
               <Property Id="$BIDATA:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$BIDATA:1:prop:10" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$BIDATA:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$BIDATA:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$BICENTRALMID:1" Desc="requires 1 of" ChangeState="true" />
@@ -3877,6 +3895,7 @@
               <Property Id="$BIVAGBDATA:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$BIVAGBDATA:1:prop:10" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$BIVAGBDATA:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$BIVAGBDATA:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$BIVAGBMID:1" Desc="requires 1 of" ChangeState="true" />
@@ -3890,6 +3909,7 @@
               <Property Id="$BIDBLDDATA:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$BIDBLDDATA:1:prop:10" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$BIDBLDDATA:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$BIDBLDDATA:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$BIDBLDMID:1" Desc="requires 1 of" ChangeState="true" />
@@ -3903,6 +3923,7 @@
               <Property Id="$BILSCHEDULE:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$BILSCHEDULE:1:prop:10" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$BILSCHEDULE:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$BILSCHEDULE:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$BISRVTIER:1" Desc="contains 1 of" ChangeState="true" />
@@ -3917,6 +3938,7 @@
               <Property Id="$WIPSCHEDSVCS:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$WIPSCHEDSVCS:1:prop:10" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$WIPSCHEDSVCS:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$WIPSCHEDSVCS:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$BIREPSERV:1" Desc="requires 1 of" ChangeState="true" />
@@ -3933,6 +3955,7 @@
               <Property Id="$BIREPSERV:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$BIREPSERV:1:prop:10" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$BIREPSERV:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$BIREPSERV:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$BISRVTIER:1" Desc="contains 1 of" ChangeState="true" />
@@ -3949,6 +3972,7 @@
               <Property Id="$BIDDATA:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$BIDDATA:1:prop:10" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$BIDDATA:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$BIDDATA:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$BIDASHMID:1" Desc="contains 1 of" ChangeState="true" />
@@ -3963,6 +3987,7 @@
               <Property Id="$EMASVRCONFIG:1:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$EMASVRCONFIG:1:prop:5" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$EMASVRCONFIG:1:prop:6" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$EMASVRCONFIG:1:prop:7" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$EMA:1" Desc="contains" ChangeState="true" />
@@ -3977,6 +4002,7 @@
               <Property Id="$POLICYCONFIG:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$POLICYCONFIG:1:prop:10" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$POLICYCONFIG:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$POLICYCONFIG:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$POLICYADMIN:1" Desc="requires 1 of" ChangeState="true" />
@@ -3993,6 +4019,7 @@
               <Property Id="$EVMKITSVR:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$EVMKITSVR:1:prop:10" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$EVMKITSVR:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$EVMKITSVR:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$INTTECHSRV:1" Desc="contains 1 of" ChangeState="true" />
@@ -4007,24 +4034,10 @@
               <Property Id="$DCSVCFEDCFG:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$DCSVCFEDCFG:1:prop:10" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$DCSVCFEDCFG:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$DCSVCFEDCFG:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$DECSRVOFR:1" Desc="contains 1 of" ChangeState="true" />
-            </ImplementedObjects>
-          </ConfiguredComponent>
-          <ConfiguredComponent Id="$VFABRCERSVRC:1" Name="SAS Web Server Configuration" ProductName="SAS Web Server Configuration" ProductIdentifier="VFABRCERSVRC" Platform="LAX" SoftwareVersion="10.91">
-            <Properties>
-              <Property Id="$VFABRCERSVRC:1:prop:1" Name="InternalVersion" DefaultValue="94.940" />
-              <Property Id="$VFABRCERSVRC:1:prop:2" Name="ProductionStatus" DefaultValue="PROD" />
-              <Property Id="$VFABRCERSVRC:1:prop:3" Name="IsFoundation" DefaultValue="false" />
-              <Property Id="$VFABRCERSVRC:1:prop:4" Name="Hide" DefaultValue="false" />
-              <Property Id="$VFABRCERSVRC:1:prop:5" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$VFABRCERSVRC:1:prop:6" Name="StepNumber" DefaultValue="1" />
-            </Properties>
-            <ImplementedObjects>
-              <SoftwareComponent ObjRef="$BITCSTIER:1" Desc="optionally contains 1 of" ChangeState="true" />
-              <SoftwareComponent ObjRef="$BITCSTIER:2" Desc="optionally contains 1 of" ChangeState="true" />
-              <ConfiguredComponent ObjRef="$TCSCLUSTERC:1" Desc="requires 1 of" ChangeState="true" />
             </ImplementedObjects>
           </ConfiguredComponent>
           <ConfiguredComponent Id="$VFABRICTCSVR:1" Name="SAS Web Application Server Configuration" ProductName="SAS Web Application Server Configuration" ProductIdentifier="VFABRICTCSVR" Platform="LAX" SoftwareVersion="10.91">
@@ -4034,7 +4047,7 @@
               <Property Id="$VFABRICTCSVR:1:prop:3" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$VFABRICTCSVR:1:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$VFABRICTCSVR:1:prop:5" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$VFABRICTCSVR:1:prop:6" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$VFABRICTCSVR:1:prop:6" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$ADMAPPMID:1" Desc="requires, signals reconfiguration" ChangeState="true" />
@@ -4071,6 +4084,7 @@
               <Property Id="$JPS:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$JPS:1:prop:10" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$JPS:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$JPS:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$WEBINFPLTFM:1" Desc="requires 1 of" ChangeState="true" />
@@ -4083,7 +4097,7 @@
               <Property Id="$WEBINFPLTFM:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$WEBINFPLTFM:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$WEBINFPLTFM:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$WEBINFPLTFM:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$WEBINFPLTFM:1:prop:11" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$ADMAPPMID:1" Desc="contains 1 of" ChangeState="true" />
@@ -4126,7 +4140,7 @@
               <Property Id="$FLEXTHEMES:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$FLEXTHEMES:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$FLEXTHEMES:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$FLEXTHEMES:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$FLEXTHEMES:1:prop:11" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$ADMAPPMID:1" Desc="requires 1 of" ChangeState="true" />
@@ -4154,6 +4168,7 @@
               <Property Id="$EMAAUXDATAIO:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$EMAAUXDATAIO:1:prop:10" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$EMAAUXDATAIO:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$EMAAUXDATAIO:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$MKTAUTOOFR:1" Desc="contains 1 of" ChangeState="true" />
@@ -4167,7 +4182,7 @@
               <Property Id="$THEMES:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$THEMES:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$THEMES:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$THEMES:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$THEMES:1:prop:11" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$WEBINFPLTFM:1" Desc="requires" ChangeState="true" />
@@ -4180,7 +4195,7 @@
               <Property Id="$ADMAPPMID:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$ADMAPPMID:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$ADMAPPMID:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$ADMAPPMID:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$ADMAPPMID:1:prop:11" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$INTTECHSRV:1" Desc="contains 1 of" ChangeState="true" />
@@ -4194,7 +4209,7 @@
               <Property Id="$SVRBAKUPEVM:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$SVRBAKUPEVM:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$SVRBAKUPEVM:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$SVRBAKUPEVM:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$SVRBAKUPEVM:1:prop:11" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$INTTECHSRV:1" Desc="contains 1 of" ChangeState="true" />
@@ -4208,7 +4223,7 @@
               <Property Id="$BIXPOLL:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$BIXPOLL:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$BIXPOLL:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$BIXPOLL:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$BIXPOLL:1:prop:11" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$BIRPTSVCofr:1" Desc="contains 1 of" ChangeState="true" />
@@ -4222,7 +4237,7 @@
               <Property Id="$POLICYENGINE:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$POLICYENGINE:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$POLICYENGINE:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$POLICYENGINE:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$POLICYENGINE:1:prop:11" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$DCSVADMINAPI:1" Desc="requires 1 of" ChangeState="true" />
@@ -4238,7 +4253,7 @@
               <Property Id="$DMLNGEMID:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$DMLNGEMID:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$DMLNGEMID:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$DMLNGEMID:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$DMLNGEMID:1:prop:11" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$BRLSTOFR:1" Desc="contains 1 of" ChangeState="true" />
@@ -4251,7 +4266,7 @@
               <Property Id="$CUSTINTELMID:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$CUSTINTELMID:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$CUSTINTELMID:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$CUSTINTELMID:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$CUSTINTELMID:1:prop:11" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$EMAXPOL:1" Desc="contains 1 of" ChangeState="true" />
@@ -4267,7 +4282,7 @@
               <Property Id="$WEBDOCMD:1:prop:3" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$WEBDOCMD:1:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$WEBDOCMD:1:prop:5" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$WEBDOCMD:1:prop:6" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$WEBDOCMD:1:prop:6" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$CITATIONWDOC:1" Desc="requires" ChangeState="true" />
@@ -4285,7 +4300,7 @@
               <Property Id="$CITATIONWEB:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$CITATIONWEB:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$CITATIONWEB:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$CITATIONWEB:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$CITATIONWEB:1:prop:11" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$BIWEBAPTIER:1" Desc="contains 1 of" ChangeState="true" />
@@ -4300,7 +4315,7 @@
               <Property Id="$JAVAPORTAL:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$JAVAPORTAL:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$JAVAPORTAL:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$JAVAPORTAL:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$JAVAPORTAL:1:prop:11" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$BIPORTLETS:1" Desc="requires" ChangeState="true" />
@@ -4314,7 +4329,7 @@
               <Property Id="$BISERVMID:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$BISERVMID:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$BISERVMID:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$BISERVMID:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$BISERVMID:1:prop:11" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$WEBINFPLTFM:1" Desc="requires" ChangeState="true" />
@@ -4327,7 +4342,7 @@
               <Property Id="$BIDASHMID:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$BIDASHMID:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$BIDASHMID:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$BIDASHMID:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$BIDASHMID:1:prop:11" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$EBIWEBAPTIER:1" Desc="contains 1 of" ChangeState="true" />
@@ -4340,7 +4355,7 @@
               <Property Id="$EMACORE:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$EMACORE:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$EMACORE:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$EMACORE:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$EMACORE:1:prop:11" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$MKTAUTOOFR:1" Desc="contains 1 of" ChangeState="true" />
@@ -4355,6 +4370,7 @@
               <Property Id="$EMAXPOL:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$EMAXPOL:1:prop:10" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$EMAXPOL:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$EMAXPOL:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$MKTAUTOOFR:1" Desc="contains 1 of" ChangeState="true" />
@@ -4369,6 +4385,7 @@
               <Property Id="$MKTOPTXPOL:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$MKTOPTXPOL:1:prop:10" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$MKTOPTXPOL:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$MKTOPTXPOL:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$MOmidtier:1" Desc="contains 1 of" ChangeState="true" />
@@ -4381,7 +4398,7 @@
               <Property Id="$BIPORTLETS:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$BIPORTLETS:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$BIPORTLETS:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$BIPORTLETS:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$BIPORTLETS:1:prop:11" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$EBIWEBAPTIER:1" Desc="contains 1 of" ChangeState="true" />
@@ -4394,7 +4411,7 @@
               <Property Id="$EMAUTILS:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$EMAUTILS:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$EMAUTILS:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$EMAUTILS:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$EMAUTILS:1:prop:11" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$MKTAUTOOFR:1" Desc="contains 1 of" ChangeState="true" />
@@ -4409,7 +4426,7 @@
               <Property Id="$CICSTUDIO:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$CICSTUDIO:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$CICSTUDIO:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$CICSTUDIO:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$CICSTUDIO:1:prop:11" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$MKTAUTOOFR:1" Desc="contains 1 of" ChangeState="true" />
@@ -4425,7 +4442,7 @@
               <Property Id="$DCMCOMMID:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$DCMCOMMID:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$DCMCOMMID:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$DCMCOMMID:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$DCMCOMMID:1:prop:11" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$BRLmidtier:1" Desc="contains 1 of" ChangeState="true" />
@@ -4438,7 +4455,7 @@
               <Property Id="$POLICYDESIGN:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$POLICYDESIGN:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$POLICYDESIGN:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$POLICYDESIGN:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$POLICYDESIGN:1:prop:11" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$DSmidtier:1" Desc="contains 1 of" ChangeState="true" />
@@ -4451,7 +4468,7 @@
               <Property Id="$DMINEMID:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$DMINEMID:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$DMINEMID:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$DMINEMID:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$DMINEMID:1:prop:11" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$EMmidtier:1" Desc="contains 1 of" ChangeState="true" />
@@ -4464,7 +4481,7 @@
               <Property Id="$MKTOPTMID:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$MKTOPTMID:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$MKTOPTMID:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$MKTOPTMID:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$MKTOPTMID:1:prop:11" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$MOmidtier:1" Desc="contains" ChangeState="true" />
@@ -4477,7 +4494,7 @@
               <Property Id="$STUDIOMID:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$STUDIOMID:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$STUDIOMID:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$STUDIOMID:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$STUDIOMID:1:prop:11" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$INTTECHSRV:1" Desc="contains 1 of" ChangeState="true" />
@@ -4491,7 +4508,7 @@
               <Property Id="$BIDWIPXPOLL:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$BIDWIPXPOLL:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$BIDWIPXPOLL:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$BIDWIPXPOLL:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$BIDWIPXPOLL:1:prop:11" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$BIDASHMID:1" Desc="requires 1 of" ChangeState="true" />
@@ -4504,7 +4521,7 @@
               <Property Id="$DCSVADMINAPI:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$DCSVADMINAPI:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$DCSVADMINAPI:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$DCSVADMINAPI:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$DCSVADMINAPI:1:prop:11" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$DCSVCECEVP:1" Desc="contains 1 of" ChangeState="true" />
@@ -4519,7 +4536,7 @@
               <Property Id="$DCSVCMONITOR:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$DCSVCMONITOR:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$DCSVCMONITOR:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$DCSVCMONITOR:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$DCSVCMONITOR:1:prop:11" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$DCSVCECEVP:1" Desc="contains 1 of" ChangeState="true" />
@@ -4534,7 +4551,7 @@
               <Property Id="$BRLSTWEBAPP:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$BRLSTWEBAPP:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$BRLSTWEBAPP:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$BRLSTWEBAPP:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$BRLSTWEBAPP:1:prop:11" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$BRLmidtier:1" Desc="contains" ChangeState="true" />
@@ -4548,6 +4565,7 @@
               <Property Id="$EVMGRPINFND:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$EVMGRPINFND:1:prop:10" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$EVMGRPINFND:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$EVMGRPINFND:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$INTTECHSRV:1" Desc="contains 1 of" ChangeState="true" />
@@ -4562,7 +4580,7 @@
               <Property Id="$VFABRCHYPERC:1:prop:3" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$VFABRCHYPERC:1:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$VFABRCHYPERC:1:prop:5" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$VFABRCHYPERC:1:prop:6" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$VFABRCHYPERC:1:prop:6" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$BITCSTIER:1" Desc="optionally contains 1 of" ChangeState="true" />
@@ -4580,7 +4598,7 @@
               <Property Id="$EVMKITEVP:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$EVMKITEVP:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$EVMKITEVP:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$EVMKITEVP:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$EVMKITEVP:1:prop:11" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$INTTECHSRV:1" Desc="contains 1 of" ChangeState="true" />
@@ -4594,7 +4612,7 @@
               <Property Id="$DCSVCEMHQ:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$DCSVCEMHQ:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$DCSVCEMHQ:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$DCSVCEMHQ:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$DCSVCEMHQ:1:prop:11" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$DECSRVOFR:1" Desc="contains 1 of" ChangeState="true" />
@@ -4607,7 +4625,7 @@
               <Property Id="$DCSVCECEVP:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$DCSVCECEVP:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$DCSVCECEVP:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$DCSVCECEVP:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$DCSVCECEVP:1:prop:11" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$DECSRVOFR:1" Desc="contains 1 of" ChangeState="true" />
@@ -4621,6 +4639,7 @@
               <Property Id="$HYPERAGNTC:1:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$HYPERAGNTC:1:prop:5" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$HYPERAGNTC:1:prop:6" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$HYPERAGNTC:1:prop:7" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$BITCSTIER:1" Desc="contains 1 of" ChangeState="true" />
@@ -4636,6 +4655,7 @@
               <Property Id="$EVMCLIENT:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$EVMCLIENT:1:prop:10" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$EVMCLIENT:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$EVMCLIENT:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$INTTECHSRV:1" Desc="contains 1 of" ChangeState="true" />
@@ -4650,6 +4670,7 @@
               <Property Id="$DPROSERVER:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$DPROSERVER:1:prop:10" Name="Prerequisite" DefaultValue="false" />
               <Property Id="$DPROSERVER:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$DPROSERVER:1:prop:12" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$BISRVTIER:1" Desc="contains" ChangeState="true" />
@@ -4667,7 +4688,7 @@
               <Property Id="$DMFEDMGRMID:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$DMFEDMGRMID:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$DMFEDMGRMID:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$DMFEDMGRMID:1:prop:11" Name="StepNumber" DefaultValue="1" />
+              <Property Id="$DMFEDMGRMID:1:prop:11" Name="StepNumber" DefaultValue="4" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$DFFEDSVROFR:1" Desc="contains 1 of" ChangeState="true" />
@@ -4694,7 +4715,7 @@
           <Property Id="$machine:3:prop:15" Name="Disk" DefaultValue="" />
           <Property Id="$machine:3:prop:16" Name="Network" DefaultValue="" />
           <Property Id="$machine:3:prop:17" Name="I/O Paths" DefaultValue="" />
-          <Property Id="$machine:3:prop:18" Name="StepLabel_5" DefaultValue="initial" />
+          <Property Id="$machine:3:prop:18" Name="StepLabel_7" DefaultValue="initial" />
           <Property Id="$machine:3:prop:19" Name="MachTopoName" DefaultValue="Clients" />
           <Property Id="$machine:3:prop:20" Name="IsOptAllowed" DefaultValue="true" />
         </Properties>
@@ -4747,8 +4768,12 @@
               <Property Id="$SASOLEDB:1:prop:5" Name="Prerequisite" DefaultValue="false" />
             </Properties>
             <ImplementedObjects>
-              <DeployedComponent ObjRef="$EGUIDE:1" Desc="requires" ChangeState="true" />
-              <DeployedComponent ObjRef="$MSOFFICEINT:1" Desc="requires" ChangeState="true" />
+              <DeployedComponent ObjRef="$BASE:1" Desc="optionally contains 1 of" ChangeState="true" />
+              <DeployedComponent ObjRef="$BASE:2" Desc="optionally contains 1 of" ChangeState="true" />
+              <DeployedComponent ObjRef="$BASE:3" Desc="optionally contains 1 of" ChangeState="true" />
+              <DeployedComponent ObjRef="$EGUIDE:1" Desc="optionally contains 1 of, requires" ChangeState="true" />
+              <DeployedComponent ObjRef="$MSOFFICEINT:1" Desc="optionally contains 1 of, requires" ChangeState="true" />
+              <DeployedComponent ObjRef="$SHARE:1" Desc="optionally contains 1 of" ChangeState="true" />
             </ImplementedObjects>
           </DeployedComponent>
           <DeployedComponent Id="$ITCLIENT:1" Name="SAS Integration Technologies Client" ProductName="SAS Integration Technologies Client" ProductIdentifier="ITCLIENT" Platform="WX6" SoftwareVersion="9.50">
@@ -4760,8 +4785,12 @@
               <Property Id="$ITCLIENT:1:prop:5" Name="Prerequisite" DefaultValue="false" />
             </Properties>
             <ImplementedObjects>
-              <DeployedComponent ObjRef="$EGUIDE:1" Desc="requires" ChangeState="true" />
-              <DeployedComponent ObjRef="$MSOFFICEINT:1" Desc="requires" ChangeState="true" />
+              <DeployedComponent ObjRef="$EGUIDE:1" Desc="optionally contains 1 of, requires" ChangeState="true" />
+              <DeployedComponent ObjRef="$INTTECH:1" Desc="optionally contains 1 of" ChangeState="true" />
+              <DeployedComponent ObjRef="$INTTECH:2" Desc="optionally contains 1 of" ChangeState="true" />
+              <SoftwareComponent ObjRef="$INTTECHSRV:1" Desc="optionally contains 1 of" ChangeState="true" />
+              <SoftwareComponent ObjRef="$INTTECHSRV:2" Desc="optionally contains 1 of" ChangeState="true" />
+              <DeployedComponent ObjRef="$MSOFFICEINT:1" Desc="optionally contains 1 of, requires" ChangeState="true" />
               <DeployedComponent ObjRef="$SASOLEDB:1" Desc="requires" ChangeState="true" />
             </ImplementedObjects>
           </DeployedComponent>
@@ -4774,8 +4803,11 @@
               <Property Id="$ACTIVEXGRAPH:1:prop:5" Name="Prerequisite" DefaultValue="false" />
             </Properties>
             <ImplementedObjects>
-              <DeployedComponent ObjRef="$EGUIDE:1" Desc="requires" ChangeState="true" />
-              <DeployedComponent ObjRef="$MSOFFICEINT:1" Desc="requires" ChangeState="true" />
+              <DeployedComponent ObjRef="$DMINE:1" Desc="optionally contains 1 of" ChangeState="true" />
+              <DeployedComponent ObjRef="$EGUIDE:1" Desc="optionally contains 1 of, requires" ChangeState="true" />
+              <DeployedComponent ObjRef="$GRAPH:1" Desc="optionally contains 1 of" ChangeState="true" />
+              <DeployedComponent ObjRef="$GRAPH:2" Desc="optionally contains 1 of" ChangeState="true" />
+              <DeployedComponent ObjRef="$MSOFFICEINT:1" Desc="optionally contains 1 of, requires" ChangeState="true" />
             </ImplementedObjects>
           </DeployedComponent>
           <DeployedComponent Id="$DFFEDCLTODBC:1" Name="SAS ODBC Driver for Federation Server" ProductName="SAS ODBC Driver for Federation Server" ProductIdentifier="DFFEDCLTODBC" Platform="WX6" SoftwareVersion="4.4">
@@ -5024,9 +5056,10 @@
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$ACTIVEXGRAPH:1" Desc="requires" ChangeState="true" />
-              <DeployedComponent ObjRef="$EGUIDE:1" Desc="requires" ChangeState="true" />
+              <DeployedComponent ObjRef="$DMINE:1" Desc="optionally contains 1 of" ChangeState="true" />
+              <DeployedComponent ObjRef="$EGUIDE:1" Desc="optionally contains 1 of, requires" ChangeState="true" />
               <DeployedComponent ObjRef="$ITCLIENT:1" Desc="requires" ChangeState="true" />
-              <DeployedComponent ObjRef="$MSOFFICEINT:1" Desc="requires" ChangeState="true" />
+              <DeployedComponent ObjRef="$MSOFFICEINT:1" Desc="optionally contains 1 of, requires" ChangeState="true" />
               <DeployedComponent ObjRef="$SASOLEDB:1" Desc="requires" ChangeState="true" />
             </ImplementedObjects>
           </DeployedComponent>
@@ -5351,7 +5384,7 @@
               <Property Id="$MGMTCONSOLE:2:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$MGMTCONSOLE:2:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$MGMTCONSOLE:2:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$MGMTCONSOLE:2:prop:11" Name="StepNumber" DefaultValue="5" />
+              <Property Id="$MGMTCONSOLE:2:prop:11" Name="StepNumber" DefaultValue="7" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$BIADMINTIER:2" Desc="contains 1 of" ChangeState="true" />
@@ -5381,7 +5414,7 @@
               <Property Id="$CLIENTCONFIG:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$CLIENTCONFIG:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$CLIENTCONFIG:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$CLIENTCONFIG:1:prop:11" Name="StepNumber" DefaultValue="5" />
+              <Property Id="$CLIENTCONFIG:1:prop:11" Name="StepNumber" DefaultValue="7" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$DATABUILDER:1" Desc="requires" ChangeState="true" />
@@ -5399,7 +5432,7 @@
               <Property Id="$MITIBRIDGES:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$MITIBRIDGES:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$MITIBRIDGES:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$MITIBRIDGES:1:prop:11" Name="StepNumber" DefaultValue="5" />
+              <Property Id="$MITIBRIDGES:1:prop:11" Name="StepNumber" DefaultValue="7" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$MITIDIPLUG:1" Desc="requires" ChangeState="true" />
@@ -5414,20 +5447,20 @@
           <Property Id="$machine:4:prop:1" Name="Purpose" DefaultValue="Web Server" />
           <Property Id="$machine:4:prop:2" Name="DerivedPurpose" DefaultValue="Clients - Administrative" />
           <Property Id="$machine:4:prop:3" Name="DerivedPurpose" DefaultValue="Clients - End User" />
-          <Property Id="$machine:4:prop:4" Name="Platform" DefaultValue="LAX" />
-          <Property Id="$machine:4:prop:5" Name="PlatformName" DefaultValue="Linux for x64" />
-          <Property Id="$machine:4:prop:6" Name="Full Name" DefaultValue="" />
-          <Property Id="$machine:4:prop:7" Name="Type" DefaultValue="" />
-          <Property Id="$machine:4:prop:8" Name="Model" DefaultValue="" />
-          <Property Id="$machine:4:prop:9" Name="OS Version" DefaultValue="" />
-          <Property Id="$machine:4:prop:10" Name="CPUs" DefaultValue="" />
-          <Property Id="$machine:4:prop:11" Name="RAM" DefaultValue="" />
-          <Property Id="$machine:4:prop:12" Name="Disk" DefaultValue="" />
-          <Property Id="$machine:4:prop:13" Name="Network" DefaultValue="" />
-          <Property Id="$machine:4:prop:14" Name="I/O Paths" DefaultValue="" />
-          <Property Id="$machine:4:prop:15" Name="StepLabel_6" DefaultValue="initial" />
-          <Property Id="$machine:4:prop:16" Name="IsOptAllowed" DefaultValue="true" />
-          <Property Id="$machine:4:prop:17" Name="IsOptional" DefaultValue="true" />
+          <Property Id="$machine:4:prop:4" Name="DerivedPurpose" DefaultValue="Web Server" />
+          <Property Id="$machine:4:prop:5" Name="Platform" DefaultValue="LAX" />
+          <Property Id="$machine:4:prop:6" Name="PlatformName" DefaultValue="Linux for x64" />
+          <Property Id="$machine:4:prop:7" Name="Full Name" DefaultValue="" />
+          <Property Id="$machine:4:prop:8" Name="Type" DefaultValue="" />
+          <Property Id="$machine:4:prop:9" Name="Model" DefaultValue="" />
+          <Property Id="$machine:4:prop:10" Name="OS Version" DefaultValue="" />
+          <Property Id="$machine:4:prop:11" Name="CPUs" DefaultValue="" />
+          <Property Id="$machine:4:prop:12" Name="RAM" DefaultValue="" />
+          <Property Id="$machine:4:prop:13" Name="Disk" DefaultValue="" />
+          <Property Id="$machine:4:prop:14" Name="Network" DefaultValue="" />
+          <Property Id="$machine:4:prop:15" Name="I/O Paths" DefaultValue="" />
+          <Property Id="$machine:4:prop:16" Name="StepLabel_3" DefaultValue="initial" />
+          <Property Id="$machine:4:prop:17" Name="IsOptAllowed" DefaultValue="true" />
         </Properties>
         <Notes>
           <TextStore Id="$machine:4:prop:18" Name="MachineDetails" StoredText="" />
@@ -5456,6 +5489,7 @@
             </Properties>
             <ImplementedObjects>
               <ConfiguredComponent ObjRef="$HYPERAGNTC:2" Desc="contains" ChangeState="true" />
+              <ConfiguredComponent ObjRef="$VFABRCERSVRC:1" Desc="contains" ChangeState="true" />
             </ImplementedObjects>
           </DeployedComponent>
           <DeployedComponent Id="$DEPLOYAGTCLT:2" Name="SAS Remote Deployment Agent Client" ProductName="SAS Remote Deployment Agent Client" ProductIdentifier="DEPLOYAGTCLT" Platform="LAX" SoftwareVersion="9.49630">
@@ -5480,6 +5514,19 @@
             </Properties>
             <ImplementedObjects>
               <ConfiguredComponent ObjRef="$HYPERAGNTC:2" Desc="requires" ChangeState="true" />
+              <ConfiguredComponent ObjRef="$VFABRCERSVRC:1" Desc="requires" ChangeState="true" />
+            </ImplementedObjects>
+          </DeployedComponent>
+          <DeployedComponent Id="$ERSSVR:1" Name="SAS Web Server" ProductName="SAS Web Server" ProductIdentifier="ERSSVR" Platform="LAX" SoftwareVersion="9.46">
+            <Properties>
+              <Property Id="$ERSSVR:1:prop:1" Name="InternalVersion" DefaultValue="94.170" />
+              <Property Id="$ERSSVR:1:prop:2" Name="ProductionStatus" DefaultValue="PROD" />
+              <Property Id="$ERSSVR:1:prop:3" Name="IsFoundation" DefaultValue="false" />
+              <Property Id="$ERSSVR:1:prop:4" Name="Hide" DefaultValue="false" />
+              <Property Id="$ERSSVR:1:prop:5" Name="Prerequisite" DefaultValue="false" />
+            </Properties>
+            <ImplementedObjects>
+              <ConfiguredComponent ObjRef="$VFABRCERSVRC:1" Desc="is configuration of" ChangeState="true" />
             </ImplementedObjects>
           </DeployedComponent>
           <DeployedComponent Id="$HYPERAGNT:2" Name="SAS Environment Manager Agent" ProductName="SAS Environment Manager Agent" ProductIdentifier="HYPERAGNT" Platform="LAX" SoftwareVersion="2.5_M4">
@@ -5520,8 +5567,23 @@
               <DeployedComponent ObjRef="$HYPERAGNT:2" Desc="requires" ChangeState="true" />
               <DeployedComponent ObjRef="$JAVARUNTIME:3" Desc="contains" ChangeState="true" />
               <DeployedComponent ObjRef="$PLATFMLTYPES:3" Desc="requires" ChangeState="true" />
+              <ConfiguredComponent ObjRef="$VFABRCERSVRC:1" Desc="requires" ChangeState="true" />
             </ImplementedObjects>
           </DeployedComponent>
+          <ConfiguredComponent Id="$VFABRCERSVRC:1" Name="SAS Web Server Configuration" ProductName="SAS Web Server Configuration" ProductIdentifier="VFABRCERSVRC" Platform="LAX" SoftwareVersion="10.91">
+            <Properties>
+              <Property Id="$VFABRCERSVRC:1:prop:1" Name="InternalVersion" DefaultValue="94.940" />
+              <Property Id="$VFABRCERSVRC:1:prop:2" Name="ProductionStatus" DefaultValue="PROD" />
+              <Property Id="$VFABRCERSVRC:1:prop:3" Name="IsFoundation" DefaultValue="false" />
+              <Property Id="$VFABRCERSVRC:1:prop:4" Name="Hide" DefaultValue="false" />
+              <Property Id="$VFABRCERSVRC:1:prop:5" Name="Prerequisite" DefaultValue="false" />
+              <Property Id="$VFABRCERSVRC:1:prop:6" Name="StepNumber" DefaultValue="3" />
+            </Properties>
+            <ImplementedObjects>
+              <SoftwareComponent ObjRef="$BITCSTIER:1" Desc="optionally contains 1 of" ChangeState="true" />
+              <SoftwareComponent ObjRef="$BITCSTIER:2" Desc="optionally contains 1 of" ChangeState="true" />
+            </ImplementedObjects>
+          </ConfiguredComponent>
           <ConfiguredComponent Id="$HYPERAGNTC:2" Name="SAS Environment Manager Agent Configuration" ProductName="SAS Environment Manager Agent Configuration" ProductIdentifier="HYPERAGNTC" Platform="LAX" SoftwareVersion="2.793">
             <Properties>
               <Property Id="$HYPERAGNTC:2:prop:1" Name="InternalVersion" DefaultValue="94.930" />
@@ -5529,7 +5591,7 @@
               <Property Id="$HYPERAGNTC:2:prop:3" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$HYPERAGNTC:2:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$HYPERAGNTC:2:prop:5" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$HYPERAGNTC:2:prop:6" Name="StepNumber" DefaultValue="6" />
+              <Property Id="$HYPERAGNTC:2:prop:6" Name="StepNumber" DefaultValue="3" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$BITCSTIER:1" Desc="contains 1 of" ChangeState="true" />
@@ -5543,7 +5605,7 @@
               <Property Id="$EVMCLIENT:2:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$EVMCLIENT:2:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$EVMCLIENT:2:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$EVMCLIENT:2:prop:11" Name="StepNumber" DefaultValue="6" />
+              <Property Id="$EVMCLIENT:2:prop:11" Name="StepNumber" DefaultValue="3" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$INTTECHSRV:1" Desc="contains 1 of" ChangeState="true" />
@@ -5576,7 +5638,7 @@
           <Property Id="$machine:5:prop:20" Name="Disk" DefaultValue="" />
           <Property Id="$machine:5:prop:21" Name="Network" DefaultValue="" />
           <Property Id="$machine:5:prop:22" Name="I/O Paths" DefaultValue="" />
-          <Property Id="$machine:5:prop:23" Name="StepLabel_3" DefaultValue="initial" />
+          <Property Id="$machine:5:prop:23" Name="StepLabel_5" DefaultValue="initial" />
           <Property Id="$machine:5:prop:24" Name="MachTopoName" DefaultValue="Middle Tier Node" />
           <Property Id="$machine:5:prop:25" Name="IsOptAllowed" DefaultValue="true" />
           <Property Id="$machine:5:prop:26" Name="SupportsVaDistributed" DefaultValue="true" />
@@ -6378,7 +6440,9 @@
               <Property Id="$GRSGEDITOR:2:prop:5" Name="Prerequisite" DefaultValue="false" />
             </Properties>
             <ImplementedObjects>
-              <DeployedComponent ObjRef="$BASE:2" Desc="requires" ChangeState="true" />
+              <DeployedComponent ObjRef="$BASE:1" Desc="optionally contains 1 of" ChangeState="true" />
+              <DeployedComponent ObjRef="$BASE:2" Desc="optionally contains 1 of, requires" ChangeState="true" />
+              <DeployedComponent ObjRef="$BASE:3" Desc="optionally contains 1 of" ChangeState="true" />
             </ImplementedObjects>
           </DeployedComponent>
           <DeployedComponent Id="$CERTFRAME:4" Name="SAS Security Certificate Framework" ProductName="SAS Security Certificate Framework" ProductIdentifier="CERTFRAME" Platform="LAX" SoftwareVersion="9.49630">
@@ -6442,7 +6506,7 @@
               <Property Id="$LEVCONFIG:2:prop:3" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$LEVCONFIG:2:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$LEVCONFIG:2:prop:5" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$LEVCONFIG:2:prop:6" Name="StepNumber" DefaultValue="3" />
+              <Property Id="$LEVCONFIG:2:prop:6" Name="StepNumber" DefaultValue="5" />
             </Properties>
             <ImplementedObjects>
               <ConfiguredComponent ObjRef="$DSBATCHSRV:2" Desc="needs for install" ChangeState="true" />
@@ -6459,7 +6523,7 @@
               <Property Id="$MGMTCONSOLE:3:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$MGMTCONSOLE:3:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$MGMTCONSOLE:3:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$MGMTCONSOLE:3:prop:11" Name="StepNumber" DefaultValue="3" />
+              <Property Id="$MGMTCONSOLE:3:prop:11" Name="StepNumber" DefaultValue="5" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$DPROSMC:3" Desc="requires" ChangeState="true" />
@@ -6474,7 +6538,7 @@
               <Property Id="$OBJECTSPAWNR:2:prop:3" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$OBJECTSPAWNR:2:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$OBJECTSPAWNR:2:prop:5" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$OBJECTSPAWNR:2:prop:6" Name="StepNumber" DefaultValue="3" />
+              <Property Id="$OBJECTSPAWNR:2:prop:6" Name="StepNumber" DefaultValue="5" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$BIRPTSVC:1" Desc="contains" ChangeState="true" />
@@ -6492,7 +6556,7 @@
               <Property Id="$OSSRVSCHED:2:prop:3" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$OSSRVSCHED:2:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$OSSRVSCHED:2:prop:5" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$OSSRVSCHED:2:prop:6" Name="StepNumber" DefaultValue="3" />
+              <Property Id="$OSSRVSCHED:2:prop:6" Name="StepNumber" DefaultValue="5" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$BASE:2" Desc="optionally contains" ChangeState="true" />
@@ -6506,7 +6570,7 @@
               <Property Id="$DSBATCHSRV:2:prop:3" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$DSBATCHSRV:2:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$DSBATCHSRV:2:prop:5" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$DSBATCHSRV:2:prop:6" Name="StepNumber" DefaultValue="3" />
+              <Property Id="$DSBATCHSRV:2:prop:6" Name="StepNumber" DefaultValue="5" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$BASE:2" Desc="optionally contains" ChangeState="true" />
@@ -6522,7 +6586,7 @@
               <Property Id="$WORKSPACPOOL:2:prop:3" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$WORKSPACPOOL:2:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$WORKSPACPOOL:2:prop:5" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$WORKSPACPOOL:2:prop:6" Name="StepNumber" DefaultValue="3" />
+              <Property Id="$WORKSPACPOOL:2:prop:6" Name="StepNumber" DefaultValue="5" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$BIRPTSVC:1" Desc="contains" ChangeState="true" />
@@ -6537,7 +6601,7 @@
               <Property Id="$STORPROCSRV:2:prop:3" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$STORPROCSRV:2:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$STORPROCSRV:2:prop:5" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$STORPROCSRV:2:prop:6" Name="StepNumber" DefaultValue="3" />
+              <Property Id="$STORPROCSRV:2:prop:6" Name="StepNumber" DefaultValue="5" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$BIRPTSVC:1" Desc="contains" ChangeState="true" />
@@ -6555,7 +6619,7 @@
               <Property Id="$WORKSPACESRV:2:prop:3" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$WORKSPACESRV:2:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$WORKSPACESRV:2:prop:5" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$WORKSPACESRV:2:prop:6" Name="StepNumber" DefaultValue="3" />
+              <Property Id="$WORKSPACESRV:2:prop:6" Name="StepNumber" DefaultValue="5" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$BIDBLDMID:1" Desc="requires 1 of" ChangeState="true" />
@@ -6573,7 +6637,7 @@
               <Property Id="$BIHPGRDC:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$BIHPGRDC:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$BIHPGRDC:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$BIHPGRDC:1:prop:11" Name="StepNumber" DefaultValue="3" />
+              <Property Id="$BIHPGRDC:1:prop:11" Name="StepNumber" DefaultValue="5" />
             </Properties>
             <ImplementedObjects>
               <ConfiguredComponent ObjRef="$BIMVAC:1" Desc="requires" ChangeState="true" />
@@ -6587,7 +6651,7 @@
               <Property Id="$EMALASRC:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$EMALASRC:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$EMALASRC:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$EMALASRC:1:prop:11" Name="StepNumber" DefaultValue="3" />
+              <Property Id="$EMALASRC:1:prop:11" Name="StepNumber" DefaultValue="5" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$MKTAUTOOFR:1" Desc="contains 1 of" ChangeState="true" />
@@ -6601,7 +6665,7 @@
               <Property Id="$MOLASRC:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$MOLASRC:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$MOLASRC:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$MOLASRC:1:prop:11" Name="StepNumber" DefaultValue="3" />
+              <Property Id="$MOLASRC:1:prop:11" Name="StepNumber" DefaultValue="5" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$MKTOPTSAOFR:1" Desc="contains 1 of" ChangeState="true" />
@@ -6614,7 +6678,7 @@
               <Property Id="$BIMVAC:1:prop:3" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$BIMVAC:1:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$BIMVAC:1:prop:5" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$BIMVAC:1:prop:6" Name="StepNumber" DefaultValue="3" />
+              <Property Id="$BIMVAC:1:prop:6" Name="StepNumber" DefaultValue="5" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$BIMVA:1" Desc="requires" ChangeState="true" />
@@ -6628,7 +6692,7 @@
               <Property Id="$TXAINFRETSRV:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$TXAINFRETSRV:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$TXAINFRETSRV:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$TXAINFRETSRV:1:prop:11" Name="StepNumber" DefaultValue="3" />
+              <Property Id="$TXAINFRETSRV:1:prop:11" Name="StepNumber" DefaultValue="5" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$SEARCHSAS:1" Desc="requires 1 of" ChangeState="true" />
@@ -6641,7 +6705,7 @@
               <Property Id="$VFABRICTCSVR:2:prop:3" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$VFABRICTCSVR:2:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$VFABRICTCSVR:2:prop:5" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$VFABRICTCSVR:2:prop:6" Name="StepNumber" DefaultValue="3" />
+              <Property Id="$VFABRICTCSVR:2:prop:6" Name="StepNumber" DefaultValue="5" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$BICENTRALMID:1" Desc="requires, signals reconfiguration" ChangeState="true" />
@@ -6663,7 +6727,7 @@
               <Property Id="$SEARCHSAS:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$SEARCHSAS:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$SEARCHSAS:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$SEARCHSAS:1:prop:11" Name="StepNumber" DefaultValue="3" />
+              <Property Id="$SEARCHSAS:1:prop:11" Name="StepNumber" DefaultValue="5" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$EBIWEBAPTIER:1" Desc="contains 1 of" ChangeState="true" />
@@ -6677,7 +6741,7 @@
               <Property Id="$BICENTRALMID:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$BICENTRALMID:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$BICENTRALMID:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$BICENTRALMID:1:prop:11" Name="StepNumber" DefaultValue="3" />
+              <Property Id="$BICENTRALMID:1:prop:11" Name="StepNumber" DefaultValue="5" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$VAADMINRPTmidtier:1" Desc="contains 1 of" ChangeState="true" />
@@ -6690,7 +6754,7 @@
               <Property Id="$BISRVMID:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$BISRVMID:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$BISRVMID:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$BISRVMID:1:prop:11" Name="StepNumber" DefaultValue="3" />
+              <Property Id="$BISRVMID:1:prop:11" Name="StepNumber" DefaultValue="5" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$BIDBLDMID:1" Desc="requires 1 of" ChangeState="true" />
@@ -6711,7 +6775,7 @@
               <Property Id="$BIDESIGNMID:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$BIDESIGNMID:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$BIDESIGNMID:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$BIDESIGNMID:1:prop:11" Name="StepNumber" DefaultValue="3" />
+              <Property Id="$BIDESIGNMID:1:prop:11" Name="StepNumber" DefaultValue="5" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$VAADMINRPTmidtier:1" Desc="contains" ChangeState="true" />
@@ -6724,7 +6788,7 @@
               <Property Id="$BIVAGBMID:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$BIVAGBMID:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$BIVAGBMID:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$BIVAGBMID:1:prop:11" Name="StepNumber" DefaultValue="3" />
+              <Property Id="$BIVAGBMID:1:prop:11" Name="StepNumber" DefaultValue="5" />
             </Properties>
             <ImplementedObjects>
               <DeployedComponent ObjRef="$BIDESIGNMID:1" Desc="requires" ChangeState="true" />
@@ -6738,7 +6802,7 @@
               <Property Id="$BIVIEWERMID:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$BIVIEWERMID:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$BIVIEWERMID:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$BIVIEWERMID:1:prop:11" Name="StepNumber" DefaultValue="3" />
+              <Property Id="$BIVIEWERMID:1:prop:11" Name="StepNumber" DefaultValue="5" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$VAADMINRPTmidtier:1" Desc="contains 1 of" ChangeState="true" />
@@ -6751,7 +6815,7 @@
               <Property Id="$BIPREPMID:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$BIPREPMID:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$BIPREPMID:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$BIPREPMID:1:prop:11" Name="StepNumber" DefaultValue="3" />
+              <Property Id="$BIPREPMID:1:prop:11" Name="StepNumber" DefaultValue="5" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$VAADMINRPTmidtier:1" Desc="contains" ChangeState="true" />
@@ -6764,7 +6828,7 @@
               <Property Id="$BIDBLDMID:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$BIDBLDMID:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$BIDBLDMID:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$BIDBLDMID:1:prop:11" Name="StepNumber" DefaultValue="3" />
+              <Property Id="$BIDBLDMID:1:prop:11" Name="StepNumber" DefaultValue="5" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$VAADMINRPTmidtier:1" Desc="contains 1 of" ChangeState="true" />
@@ -6777,7 +6841,7 @@
               <Property Id="$EMAMIDLASRC:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$EMAMIDLASRC:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$EMAMIDLASRC:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$EMAMIDLASRC:1:prop:11" Name="StepNumber" DefaultValue="3" />
+              <Property Id="$EMAMIDLASRC:1:prop:11" Name="StepNumber" DefaultValue="5" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$MKTAUTOOFR:1" Desc="contains 1 of" ChangeState="true" />
@@ -6791,7 +6855,7 @@
               <Property Id="$MOMIDLASRC:1:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$MOMIDLASRC:1:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$MOMIDLASRC:1:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$MOMIDLASRC:1:prop:11" Name="StepNumber" DefaultValue="3" />
+              <Property Id="$MOMIDLASRC:1:prop:11" Name="StepNumber" DefaultValue="5" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$MKTOPTSAOFR:1" Desc="contains 1 of" ChangeState="true" />
@@ -6804,7 +6868,7 @@
               <Property Id="$HYPERAGNTC:3:prop:3" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$HYPERAGNTC:3:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$HYPERAGNTC:3:prop:5" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$HYPERAGNTC:3:prop:6" Name="StepNumber" DefaultValue="3" />
+              <Property Id="$HYPERAGNTC:3:prop:6" Name="StepNumber" DefaultValue="5" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$BITCSTIER:1" Desc="contains 1 of" ChangeState="true" />
@@ -6818,7 +6882,7 @@
               <Property Id="$EVMCLIENT:3:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$EVMCLIENT:3:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$EVMCLIENT:3:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$EVMCLIENT:3:prop:11" Name="StepNumber" DefaultValue="3" />
+              <Property Id="$EVMCLIENT:3:prop:11" Name="StepNumber" DefaultValue="5" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$INTTECHSRV:1" Desc="contains 1 of" ChangeState="true" />
@@ -6832,7 +6896,7 @@
               <Property Id="$DPROSERVER:2:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$DPROSERVER:2:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$DPROSERVER:2:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$DPROSERVER:2:prop:11" Name="StepNumber" DefaultValue="3" />
+              <Property Id="$DPROSERVER:2:prop:11" Name="StepNumber" DefaultValue="5" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$SOLNLASRSRV:1" Desc="contains" ChangeState="true" />
@@ -7429,7 +7493,9 @@
               <Property Id="$GRSGEDITOR:3:prop:5" Name="Prerequisite" DefaultValue="false" />
             </Properties>
             <ImplementedObjects>
-              <DeployedComponent ObjRef="$BASE:3" Desc="requires" ChangeState="true" />
+              <DeployedComponent ObjRef="$BASE:1" Desc="optionally contains 1 of" ChangeState="true" />
+              <DeployedComponent ObjRef="$BASE:2" Desc="optionally contains 1 of" ChangeState="true" />
+              <DeployedComponent ObjRef="$BASE:3" Desc="optionally contains 1 of, requires" ChangeState="true" />
             </ImplementedObjects>
           </DeployedComponent>
           <DeployedComponent Id="$CERTFRAME:5" Name="SAS Security Certificate Framework" ProductName="SAS Security Certificate Framework" ProductIdentifier="CERTFRAME" Platform="LAX" SoftwareVersion="9.49630">
@@ -7559,7 +7625,7 @@
           <Property Id="$machine:7:prop:14" Name="Disk" DefaultValue="" />
           <Property Id="$machine:7:prop:15" Name="Network" DefaultValue="" />
           <Property Id="$machine:7:prop:16" Name="I/O Paths" DefaultValue="" />
-          <Property Id="$machine:7:prop:17" Name="StepLabel_4" DefaultValue="initial" />
+          <Property Id="$machine:7:prop:17" Name="StepLabel_6" DefaultValue="initial" />
           <Property Id="$machine:7:prop:18" Name="IsOptAllowed" DefaultValue="true" />
           <Property Id="$machine:7:prop:19" Name="IsOptional" DefaultValue="true" />
         </Properties>
@@ -7971,7 +8037,7 @@
               <Property Id="$MGMTCONSOLE:5:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$MGMTCONSOLE:5:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$MGMTCONSOLE:5:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$MGMTCONSOLE:5:prop:11" Name="StepNumber" DefaultValue="4" />
+              <Property Id="$MGMTCONSOLE:5:prop:11" Name="StepNumber" DefaultValue="6" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$BIADMINTIER:4" Desc="contains 1 of" ChangeState="true" />
@@ -7998,7 +8064,7 @@
               <Property Id="$TCSCLUSTERC:1:prop:3" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$TCSCLUSTERC:1:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$TCSCLUSTERC:1:prop:5" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$TCSCLUSTERC:1:prop:6" Name="StepNumber" DefaultValue="4" />
+              <Property Id="$TCSCLUSTERC:1:prop:6" Name="StepNumber" DefaultValue="6" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$CLUSTERTIER:1" Desc="contains" ChangeState="true" />
@@ -8011,7 +8077,7 @@
               <Property Id="$HYPERAGNTC:5:prop:3" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$HYPERAGNTC:5:prop:4" Name="Hide" DefaultValue="false" />
               <Property Id="$HYPERAGNTC:5:prop:5" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$HYPERAGNTC:5:prop:6" Name="StepNumber" DefaultValue="4" />
+              <Property Id="$HYPERAGNTC:5:prop:6" Name="StepNumber" DefaultValue="6" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$BITCSTIER:1" Desc="contains 1 of" ChangeState="true" />
@@ -8026,7 +8092,7 @@
               <Property Id="$EVMCLIENT:5:prop:8" Name="IsFoundation" DefaultValue="false" />
               <Property Id="$EVMCLIENT:5:prop:9" Name="Hide" DefaultValue="false" />
               <Property Id="$EVMCLIENT:5:prop:10" Name="Prerequisite" DefaultValue="false" />
-              <Property Id="$EVMCLIENT:5:prop:11" Name="StepNumber" DefaultValue="4" />
+              <Property Id="$EVMCLIENT:5:prop:11" Name="StepNumber" DefaultValue="6" />
             </Properties>
             <ImplementedObjects>
               <SoftwareComponent ObjRef="$INTTECHSRV:1" Desc="contains 1 of" ChangeState="true" />
