@@ -1,0 +1,14 @@
+        <appender name="PerfLog" class="org.apache.log4j.DailyRollingFileAppender">
+                <param name="File" value="${config.lev.web.appserver.logs.dir}/DSEngineServer-Perf.log" />
+                <param name="datePattern" value="'.'yyyy-MM-dd"/>
+                <param name="Append" value="true" />
+                        <layout class="org.apache.log4j.PatternLayout">
+                <param name="ConversionPattern" value="%d %m%n" />
+        </layout>
+</appender> 
+
+<appender name="ASYNC_FILE_PERF" class="org.apache.log4j.AsyncAppender"> 
+<param name="BufferSize" value="100000"/> 
+<param name="Blocking" value="false"/> 
+<appender-ref ref="PerfLog"/> 
+</appender>
