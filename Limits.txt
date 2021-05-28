@@ -1,0 +1,15 @@
+/etc/security/limits.conf
+	#SASCI
+	  sasci hard nofile 350000
+	  sasci soft nofile 350000
+	  sasci hard nproc  100000
+	  sasci soft nproc  100000
+	  sasci hard stack  100000
+	  sasci soft stack  100000
+	#SASCISRV
+	  sascisrv hard nofile 350000
+	  sascisrv soft nofile 350000
+	  sascisrv hard nproc  100000
+	  sascisrv soft nproc  100000
+	  sascisrv hard stack  100000
+	  sascisrv soft stack  100000
